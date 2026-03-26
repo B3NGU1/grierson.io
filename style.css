@@ -1,0 +1,172 @@
+/* ============================================================
+   Base
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: #fafafa;
+  color: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  padding: 3rem 1.5rem 6rem;
+}
+
+/* ============================================================
+   Layout
+   ============================================================ */
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ============================================================
+   Typography
+   ============================================================ */
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  margin: 2.5rem 0 0.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* ============================================================
+   Links
+   ============================================================ */
+
+a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #555;
+}
+
+/* ============================================================
+   Navigation
+   ============================================================ */
+
+nav {
+  margin: 2rem 0 3rem;
+}
+
+nav a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+nav a:hover {
+  color: #1a1a1a;
+}
+
+nav a.active {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ============================================================
+   Back link
+   ============================================================ */
+
+.back {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: #888;
+  text-decoration: none;
+  margin-bottom: 2.5rem;
+}
+
+.back:hover {
+  color: #1a1a1a;
+}
+
+/* ============================================================
+   Links page
+   ============================================================ */
+
+.link-list {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.link-list li {
+  padding: 0.3rem 0;
+}
+
+/* ============================================================
+   Blog listing
+   ============================================================ */
+
+.post-list {
+  list-style: none;
+}
+
+.post-list li {
+  padding: 0.4rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.post-list .date {
+  font-size: 0.82rem;
+  color: #aaa;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   Blog post
+   ============================================================ */
+
+.post-header {
+  margin-bottom: 2.5rem;
+}
+
+.post-header h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.post-meta {
+  font-size: 0.82rem;
+  color: #aaa;
+}
+
+.post-body p {
+  margin-bottom: 1.2rem;
+}
+
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e8e8;
+}
