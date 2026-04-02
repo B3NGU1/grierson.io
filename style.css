@@ -170,3 +170,51 @@ nav a.active {
   padding-top: 1.5rem;
   border-top: 1px solid #e8e8e8;
 }
+
+/* ============================================================
+   About — Now list
+   ============================================================ */
+
+.now-list {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.now-list li {
+  padding: 0.3rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.now-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
+
+/* ============================================================
+   Projects
+   ============================================================ */
+
+.project {
+  margin-bottom: 2rem;
+}
+
+.project h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+
+.project-meta {
+  font-size: 0.82rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.project-note {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1.5rem;
+}
